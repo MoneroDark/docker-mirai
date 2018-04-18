@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.5
+FROM ubuntu:latest
 ADD cnc /
 ADD db.sql /
 RUN apt-get -y update \
